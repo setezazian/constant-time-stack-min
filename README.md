@@ -1,5 +1,17 @@
-# Toy Problem Setup Template
+# Constant Time Stack Min
 
-This repo includes the initial setup for your toy problems. [`Use this template`](https://github.com/setezazian/toyproblem-setup/generate) and have fun!
+Write a stack using your preferred instantiation pattern. Implement a min function
+that returns the minimum value of all the elements in the stack in constant time.stack.
 
-[More info on how to use a template repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+- All of the functions in the Stack should run in constant time!
+
+```
+var example = new Stack()
+ example.push(4)
+ example.push(3)
+ example.min() === 3
+ example.push(3)
+ example.push(2)
+ example.push(2)
+ example.min() === 2
+```
